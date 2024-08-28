@@ -1,0 +1,41 @@
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore virtual environment directory
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Ignore distribution and packaging files
+*.egg-info/
+*.egg
+*.whl
+dist/
+build/
+
+# Ignore Python cache and backup files
+*.bak
+*.swp
+
+# Ignore IDE and editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log and temporary files
+*.log
+*.tmp
+*.temp
+
+# Ignore anything else not necessary for source control
+LICENSE
